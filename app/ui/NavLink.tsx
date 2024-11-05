@@ -9,7 +9,7 @@ const NavLink = () => {
       <ActiveLink
         href="/"
         className="group text-gray-500 group-hover:text-gray-200 flex items-center flex-col w-16 p-1 h-16 rounded-md hover:bg-[#ffffff0d]"
-        activeClassName="text-[#7b5bf5]"
+        activeClassName="!text-[#7b5bf5]"
       >
         <MdHome className="text-3xl" />
         <p className="text-xs mt-2 opacity-0 text-gray-500 group-hover:text-gray-200 group-hover:opacity-100">
@@ -19,7 +19,7 @@ const NavLink = () => {
       <ActiveLink
         href="/discover"
         className="group text-gray-500 group-hover:text-gray-200 flex items-center flex-col w-16 p-1 h-16 rounded-md hover:bg-[#ffffff0d]"
-        activeClassName="text-[#7b5bf5]"
+        activeClassName="!text-[#7b5bf5]"
       >
         <LuCompass className="text-3xl" />
         <p className="text-xs mt-2 opacity-0 text-gray-500 group-hover:text-gray-200 group-hover:opacity-100">
@@ -29,7 +29,7 @@ const NavLink = () => {
       <ActiveLink
         href="/library"
         className="group text-gray-500 group-hover:text-gray-200 flex items-center flex-col w-16 p-1 h-16 rounded-md hover:bg-[#ffffff0d]"
-        activeClassName="text-[#7b5bf5]"
+        activeClassName="!text-[#7b5bf5]"
       >
         <svg className="text-3xl" viewBox="0 0 512 512">
           <path
@@ -55,7 +55,7 @@ const NavLink = () => {
       <ActiveLink
         href="settings"
         className="group text-gray-500 group-hover:text-gray-200 flex items-center flex-col w-16 p-1 h-16 rounded-md hover:bg-[#ffffff0d]"
-        activeClassName="text-[#7b5bf5]"
+        activeClassName="!text-[#7b5bf5]"
       >
         <GrSettingsOption className="text-3xl" />
         <p className="text-xs mt-2 opacity-0 text-gray-500 group-hover:text-gray-200 group-hover:opacity-100">
