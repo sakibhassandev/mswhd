@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
+import { poppins } from "./ui/fonts";
 
 import "./globals.css";
-import { poppins } from "./ui/fonts";
 
 export const metadata: Metadata = {
   title: "MSWHD | Home",
