@@ -5,7 +5,7 @@ import { GrSettingsOption } from "react-icons/gr";
 
 const NavLink = () => {
   return (
-    <nav className="flex-col gap-8 max-w-[110px] flex items-center min-h-screen p-5 text-white">
+    <nav className="absolute left-0 top-[88px] bottom-0 flex-col gap-8 max-w-[110px] flex items-center w-[104px] text-white">
       <ActiveLink
         href="/"
         className="group text-gray-500 group-hover:text-gray-200 flex items-center flex-col w-16 p-1 h-16 rounded-md hover:bg-[#ffffff0d]"

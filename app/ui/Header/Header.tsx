@@ -1,12 +1,11 @@
 import Link from "next/link";
 import { MdOutlineSearch } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa";
-import NavLink from "./NavLink";
 
 const Header = () => {
   return (
     <>
-      <header className="flex gap-4 items-center justify-between p-5 text-white">
+      <header className="flex gap-4 items-center justify-between h-[88px] px-5 absolute top-0 left-0 right-0 text-white">
         <Link href="/" className="text-xl font-bold">
           MSWHD
         </Link>
@@ -24,7 +23,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <NavLink />
     </>
   );
 };
