@@ -30,7 +30,7 @@ const LoginDropDown = ({ isDropDownOpen }: { isDropDownOpen: boolean }) => {
         isDropDownOpen ? "" : "hidden"
       } rounded-xl absolute top-full right-5 bg-[#0f0d20] shadow-[0px_0px_30px_rgba(123,91,245,0.37)] overflow-hidden z-10`}
     >
-      <div className="w-[22rem] overflow-y-auto p-3 max-h-[540px] fade-animation">
+      <div className="w-full overflow-y-auto p-5 max-h-[540px] fade-animation">
         <div className="user-info flex items-center gap-3">
           <div className="profile-pic">
             <Image
